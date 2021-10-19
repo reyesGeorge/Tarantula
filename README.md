@@ -37,7 +37,7 @@ This crawler uses a JS rendering service called Splash to query the `JavaScript`
 I had to add Splash specific middlewares to the Scrapy settings in order to make this work. I also created a docker image in my docker compose file that holds the Splash instance. Then the scraping worked just like the default spider.
 
 ### The Login Spider
-This crawler scrapes the input field for the cs
+This crawler scrapes the input field for the csrf token. It then submits a form request, authenticates and scrapes the rest of the data as the default spider does.
 
 ## Notes
 - I added a user agent that makes me look like a more realistic person in the settings file. I also added the item pipeline and some configuration for the docker containers. I also added a download delay of 2 seconds so that the scraper does not scrape too fast.
@@ -48,10 +48,12 @@ This crawler scrapes the input field for the cs
 
 - While containerizing my application I have never had to use Docker Compose, SQLAlchemy or Redis so I quickly learned in order to integrate them into my project.
 
+
+## Potential Features in the Future 
 - I did not collect much metadata but I saw a package called scrapy-magic fields and I would have liked to implement it to add the timestamps and urls scraped to the DB items
 
 - I did not create GUI tools for the Postgres and Redis to make it easier to view, this would have been a nice addition
 
 - Since only the JS spider is triggered by the script the other ones are manual I only set up a single table, but for a more distributed process I think making more models and tables for each spider would have been good. I wanted to reuse the code so I left it how it is.
 
-- I did not add the cron job functionality, but I think in practice you would set up an EC2 instance or Azure container that is triggered by a serverless function.
+- Cron job functionality
