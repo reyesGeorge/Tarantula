@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+  pg:
+    image: postgres
+    restart: always
+    # expose:
+    #   - '5432'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: legalist
+  splash:
+    image: scrapinghub/splash
+    # expose:
+    #   - '8050'
+    ports:
+      - '8050:8050'
+  redis:
+    image: redis
+    # expose:
+    #   - '6379'
+    ports:
+      - '6379:6379'
+  squid:
+    image: datadog/squid
+    # expose:
+    #   - '3128'
+    ports:
+      - '3128:3128'
+  crawler:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      - pg
+      - splash
+      - redis
+      - squid
+
+
+
