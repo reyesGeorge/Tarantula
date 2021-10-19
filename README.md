@@ -1,4 +1,4 @@
-# This is George's scraping project
+# This is George's Scraping Project
 - To get started cd into the `theZoo` file and run: 
 - chmod +x script.sh
 - then: ./script.sh
@@ -7,7 +7,7 @@
 
 - The project took me 2 days to complete. I spent most of my time learning about docker compose and the networking aspect of containers as well as the rotating proxies/user agents people add to their spiders.
 
-> Below I have outlined the steps I took as I completed the assessment
+> Below I have outlined the steps I took as I completed the project
 
 
 ## Docker
