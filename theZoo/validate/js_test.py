@@ -5,7 +5,7 @@ USER = 'user'
 PASS = 'pass'
 HOST = 'pg'
 PORT = '5432'
-DB = 'legalist'
+DB = 'gtest'
 
 
 db_string = f"postgresql://{USER}:{PASS}@{HOST}:{PORT}/{DB}"

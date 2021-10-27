@@ -122,7 +122,7 @@ DATABASE = {
     "port": '5432',
     "username": 'user',
     "password": 'pass',
-    "database": 'legalist',
+    "database": 'gtable',
 }
 LOG_LEVEL = "INFO"
 
