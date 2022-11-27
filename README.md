@@ -1,8 +1,5 @@
 # This is George's Scraping Project
-
-| | | |
-|:-------------------------:|:-------------------------:|
-|<img width="2406" alt="popArt Lion" src="https://github.com/reyesGeorge/generativeArt/blob/main/popLion.png"> Pop Lion
+<img width="1200" alt="Spider Logo" src="https://github.com/reyesGeorge/Tarantula/blob/main/tarantula_image.png">
 
 
 - To get started cd into the `theZoo` file and run: 
