@@ -1,5 +1,5 @@
-# This is George's Scraping Project
-<img width="1200" alt="Spider Logo" src="https://github.com/reyesGeorge/Tarantula/blob/main/tarantula_image.png">
+# This is George's Scraping Project: Tarantula
+<img height="300" width="400" alt="Spider Logo" src="https://github.com/reyesGeorge/Tarantula/blob/main/tarantula_image.png">
 
 
 - To get started cd into the `theZoo` file and run: 
