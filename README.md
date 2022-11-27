@@ -15,10 +15,10 @@
 
 ## Docker
 - I downloaded the Docker Desktop application for MacOS
-- Then as I read through the pdf I looked up docker images for the technologies used, and I found some for postgres, squid, splash and redis
+- I looked up docker images for the technologies used, and I found some for postgres, squid, splash and redis
 
 ## Python Environment
-- I setup a Python virtual environment in my IDE, here I developed the whole project to keep my packages enclosed so they did not conflict with my global packages in my machine. Once I was finished and tested the spiders to make sure they worked properly I dockerized everything and zipped it up to turn in
+- I setup a Python virtual environment in my IDE, here I developed the whole project to keep my packages enclosed so they did not conflict with my global packages in my machine. Once I was finished and tested the spiders to make sure they worked properly I dockerized everything into containers.
 - Packages I downloaded: pip, setuptools, wheel, Scrapy, Pandas, SQLAlchemy, scrapy-splash, scrapy-redis and psycopg2-binary
 - I created a requirements.txt file so I could cat the pip list of my package versions into the file for easy replication
 - The models.py file contains the SQLAlchemy code and the database schema
