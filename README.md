@@ -1,4 +1,10 @@
 # This is George's Scraping Project
+
+| | | |
+|:-------------------------:|:-------------------------:|
+|<img width="2406" alt="popArt Lion" src="https://github.com/reyesGeorge/generativeArt/blob/main/popLion.png"> Pop Lion
+
+
 - To get started cd into the `theZoo` file and run: 
 - chmod +x script.sh
 - then: ./script.sh
