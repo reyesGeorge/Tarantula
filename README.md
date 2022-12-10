@@ -1,4 +1,4 @@
-# This is George's Scraping Project: Tarantula
+Tarantula, a base scraping infastructure
 <img height="300" width="400" alt="Spider Logo" src="https://github.com/reyesGeorge/Tarantula/blob/main/tarantula_image.png">
 
 
