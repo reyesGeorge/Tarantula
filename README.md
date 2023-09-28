@@ -1,4 +1,4 @@
-# Tarantula, a base scraping infastructure 
+# Tarantula, a base scraping infrastructure 
 <img height="300" width="400" alt="Spider Logo" src="https://github.com/reyesGeorge/Tarantula/blob/main/tarantula_image.png">
 
 
